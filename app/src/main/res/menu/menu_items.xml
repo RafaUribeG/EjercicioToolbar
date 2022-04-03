@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itRegis"
+        android:title="Registro"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/regis"/>
+    <item
+        android:id="@+id/itVerRegis"
+        android:title="Ver Registros"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ver"/>
+    <item
+        android:id="@+id/itEliminar"
+        android:title="Eliminar Registro"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/dele"/>
+</menu>
